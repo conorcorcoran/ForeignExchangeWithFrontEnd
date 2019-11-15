@@ -26,7 +26,6 @@ namespace fxUI.Pages
         
         // URL to Fix.io api. This returns current exhange rate data.
         private const string URL = "http://data.fixer.io/api/latest?access_key=a94666c6342e3bbf7fb4c218f6afb915";
-        //http://www.localeplanet.com/api/auto/currencymap.json
         public static List<fxUI.Transaction> transactions = new List<fxUI.Transaction>();
         private string[] files = Directory.GetFiles(@".\TransactionFiles", "*.csv");
 
