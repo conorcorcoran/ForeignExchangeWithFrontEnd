@@ -1,0 +1,32 @@
+﻿@page
+@model IndexModel
+
+<div class="text-center">
+    <h1 class="display-4">Foreign Exchange</h1>
+    <table class="table table-bordered table-responsive table-hover">
+        <tr>
+            <th>From File</th> 
+            <th>Date</th>
+            <th>Transaction Id </th>  
+            <th>Source Currency </th>  
+            <th>Destination Currency </th>  
+            <th>Amount</th>  
+            <th>Exchanged Amount</th>  
+            <th>Exchange rate</th>
+        </tr>
+        @foreach (var transaction in IndexModel.transactions)
+        {
+            <tr>
+                <td>@transaction.FromFile</td>
+                <td>@transaction.Date</td>
+                <td>@transaction.Id</td>
+                <td>@transaction.SourceCurrency</td>
+                <td>@transaction.DestinationCurrency</td>
+                <td>@transaction.SourceAmount</td>
+                <td>@transaction.ConvertedAmount</td>
+                <td>@transaction.ExchangeRate</td>
+                
+            </tr>
+        }  
+    </table>
+</div>
