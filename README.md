@@ -1,6 +1,6 @@
 # Foreign Exchange with Front-end
 
-This is a project that reads in data from a CSV file and makes calculations to exchange amounts of money from one currency to another. It makes use of Razor pages from ASAP.net and is coded in C#. 
+This is a project that reads in data from a CSV file and makes calculations to exchange amounts of money from one currency to another. It makes use of Razor pages from ASAP.net and is coded in C#. The code for doing the exchange is found in the  **Pages/Index.cshtml.cs** file along with the **transaction.cs** file for modelling the data and the **index.cshtml** file for the front-end.
 
 ## Installation
 
