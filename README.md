@@ -22,10 +22,12 @@ There you will see a print out of the transactions along with the time and date 
 
 ## Files
 The files are in the following format: 
-| ID            | Source Currency| Destination Currency|Ammount|
-| ------------- |:-------------: | :------------------:| -----:|
-| 1             | USD            | EUR                 |    100|
-| 2             | EUR            | AUD                 | 2050.5|
+
+
+|ID   | Source Currency|Destination Currency|Amount |
+| --- | ---            | ---                | ---   |
+|1    |USD             |EUR                 |100    |
+|2    |EUR             |AUD                 |2050.5 |
 
 Currently they are all .csv files and are handled as such. 
 
